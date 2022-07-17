@@ -3,27 +3,24 @@ background-image: URL("space.png");
 color: white;
 }
 
-ul {
+ul.horizontal {
+list-style-type: none;
+border-left: 5px solid white;
 padding: 0px;
 margin: 0px;
 }
 
-ul li {
-list-style-type: none;
+ul.horizontal li {
 display: inline-block;
+box-sizing: border-box;
+border: 5px solid white;
+border-left: 0px;
 background-color: darkgray;
 text-align: center;
-border: 5px solid white;
-box-sizing: border-box;
 }
 
-ul li.wide {
-width: 50%;
-}
-
-ul li.narrow {
-width: 25%;
-border-left: 0px;
+h1 {
+text-align: center;
 }
 
 p {
@@ -42,5 +39,5 @@ text-shadow: 2px 2px 2px #FFFF00;
 }
 
 a:active {
-color: #FC5E00;
+text-shadow: 2px 2px 2px #FC5E00;
 }
