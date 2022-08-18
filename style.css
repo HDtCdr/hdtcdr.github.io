@@ -5,17 +5,12 @@ color: white;
 
 ul.horizontal {
 list-style-type: none;
-border-left: 5px solid white;
 padding: 0px;
 margin: 0px;
 }
 
 ul.horizontal li {
 display: inline-block;
-box-sizing: border-box;
-border: 5px solid white;
-border-left: 0px;
-background-color: darkgray;
 text-align: center;
 }
 
